@@ -14,7 +14,7 @@ class MyRunnable implements Runnable{
 		while(true) {
 			System.out.println("Woke up...");
 			try {
-				Thread.sleep(100);
+				Thread.sleep(10000);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
